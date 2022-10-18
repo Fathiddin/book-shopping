@@ -54,6 +54,15 @@
 </header>
 
 
+
+        
+<div class="container m-5 p-3" v-if="showHome">
+    <h1>Bizning saytimizda</h1>
+     <div id="home-pages">
+
+     </div>
+ </div>
+
         <div class="container mt-5" v-if="showProducts">
             <div class="row" v-for="product,key in products">
                 <div class="col-sm-12 col-md-4">
@@ -114,13 +123,6 @@
         </div>
 
         
-        <div class="container m-5 p-3" v-if="showHome">
-           <h1>Bizning saytimizda</h1>
-            <div id="home-page">
-
-            </div>
-        </div>
-        
     <div class="card container m-5 p-3" v-if="showBuy" style="width: 18rem;">
         <div class="card-body">
             <input type="text" style="padding: 3px; width: 100%; border-radius: 10px;" placeholder="Ismingizni kiriting"><br><br>
@@ -146,6 +148,3 @@
     <script src="./js/app.js"></script>
 </body>
 </html>
-
-
-<!-- ru.vuejs.org -->

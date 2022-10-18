@@ -94,7 +94,7 @@ const app = new Vue({
 
 ///typewritter
 
-var home = document.getElementById('home-page');
+var home = document.getElementById('home-pages');
 
 var typewriter = new Typewriter(home, {
     loop: true
